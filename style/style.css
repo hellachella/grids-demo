@@ -39,9 +39,20 @@ font-family: sans-serif;
 *,::before,::after {
   box-sizing: inherit;
   margin: 0;
-  transition: all 1000ms
 }
 
 body{
   margin: 0;
 }
+
+.gutter{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.img-flex{
+  width: 100%;
+  display: block;
+}
+
+/*don't want the grid code to interfere with my css.  grid css must be seperate  Make a new CSS file.
