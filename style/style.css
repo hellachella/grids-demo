@@ -1,0 +1,41 @@
+@-moz-viewport {
+  width: device-width;
+  scale: 1
+}
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1
+}
+
+@-o-viewport {
+  width: device-width;
+  scale: 1
+}
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1
+}
+
+@viewport {
+  width: device-width;
+  scale: 1
+}
+
+html {
+  box-sizing: border-box;
+/*prevents browser from automatically resizing font*/
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+/*those will never validate*/
+
+}
+
+*,::before,::after {
+  box-sizing: inherit;
+  margin: 0;
+  transition: all 1000ms
+}
