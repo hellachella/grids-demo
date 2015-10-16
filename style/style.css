@@ -32,10 +32,16 @@ html {
   text-size-adjust: 100%;
 /*those will never validate*/
 
+font-family: sans-serif;
+
 }
 
 *,::before,::after {
   box-sizing: inherit;
   margin: 0;
   transition: all 1000ms
+}
+
+body{
+  margin: 0;
 }
